@@ -3,7 +3,7 @@ THIS REPOSITORY CONTAINS A COMPLETE BLUEPRINT AND FIRMWARE OF DIY CAR SPEEDO GAU
 You see, local rental company is trying to permaban me from using car sharing service only because I love to speed, which is something that I will never give a middle finger.
 Cars these days has decent performance, they easily hit 150kph with ease. and they claim that exceeding 150kph is a violation of their terms of service. 
 
-So yeah.. I needed some device that I can easily carry, install, remove on a rental vehicle. My initial thought was to make a device thatn warns speeding whenever I floor and sending her, with my leftover parts from one of my big main project.
+So yeah.. I needed some device that I can easily carry, install, remove on a rental vehicle, and helps me avoid speeding. My initial thought was to make a device thatn warns speeding whenever I floor and sending her, with my leftover parts from one of my big main project.
 However, the part that I use is clearly an overkill for this purpose. I mean, U-Blox M8 Series chip and STM32F4 for simple speed warning digital karen doesn't make any sense haha.
 That's the start of the story.  Maybe I can integrate a whole lot of features that even a complete aftermarket HUD product doesn't provide? 
 
