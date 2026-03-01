@@ -1,20 +1,42 @@
+
+# 'I Show Speed' Portable Car Speedometer with Super High Sensitivity. 
+
+## Introduction
+
 THIS REPOSITORY CONTAINS A COMPLETE BLUEPRINT AND FIRMWARE OF DIY CAR SPEEDO GAUGE AKA "I SHOW SPEED". 
 
 You see, local rental company is trying to permaban me from using car sharing service only because I love to speed, which is something that I will never give a middle finger.
 Cars these days has decent performance, they easily hit 150kph with ease. and they claim that exceeding 150kph is a violation of their terms of service. 
 
-So yeah.. I needed some device that I can easily carry, install, remove on a rental vehicle, and helps me avoid speeding. My initial thought was to make a device thatn warns speeding whenever I floor and sending her, with my leftover parts from one of my big main project.
-However, the part that I use is clearly an overkill for this purpose. I mean, U-Blox M8 Series chip and STM32F4 for simple speed warning digital karen doesn't make any sense haha.
+So yeah.. I needed some device that I can easily carry, install, remove on a rental vehicle, and helps me avoid speeding. 
+My initial thought was to make a device that warns speeding whenever I floor and sending her, with my leftover parts from one of my big main project.
+However, the part that I use is clearly an overkill for this purpose. 
+I mean, U-Blox M8 Series chip and STM32F4 for simple speed warning digital karen doesn't make any sense haha.
 That's the start of the story.  Maybe I can integrate a whole lot of features that even a complete aftermarket HUD product doesn't provide? 
 
-There are lots of similar product that falls into similar category - Tons of these are on sale from Aliexpress. They provide decent GPS sensitivity, some speed related feature. 
+There are lots of similar product that falls into similar category - Tons of these are on sale from Aliexpress. 
+They provide decent GPS sensitivity, some speed related feature. 
 Pay more and you'll get a full pledged GIS based safe drive assistant system - clearly a waste of money, since at this point I would buy RAM mount instead..
 
 And here I am - I am a well educated embedded engineer who can make things BETTER! 
 
+## Design Origin
+
+Here in korea, Car GPS was quite expensive on early 00s. Dedicated vehicle GPS unit is barely affordable.
+Tech-savvy users can carry their PDAs that runs Windows CE or Windows Mobile 2003 with external GPS Module. 
+Some companies even provide GPS Software like 'I-Navi' for those. However, Early PDAs all shared a similar fatal flaw - SRAM Backup. 
+Once battery ran out, every settings and user applications installed on the PDA is completely gone, including GPS software.
+
+So, small companies back then brought a simple idea. Most people use their GPS Navigation to check the location of speed cameras and avoid speeding. 
+Then, Why don't we make a product that does not have an expensive processor and display, and just warns speed camera and show only necessary infos?
+
+Those units have 8-bit MCU with SirfStar GPS chip. Most of them equipped with 4 digit segment display and very simple voice alert system, and was affordable.
+People can install those small units on their dashboard and those device helped them to drive safe... and of course avoiding speed tickets, of course by driving carefully especially in front of speed cameras.
+
+So my design was based on this unit, but now with more sensitive and fast (2Hz) GPS, 8 digit display and extended features.
 
 
-YOU MAY REQUIRE 
+## YOU MAY REQUIRE 
 - MAX7219 8-Digit 7 Segment Display Unit (Everyone can afford it, go search aliexpress if you want)
 - STM32 Black Pill Board W/ STM32F411CEU6. You can use any board if it contains the same chip.
 - NEO-M8N or compatible U-Blox UART GPS Breakout Board. (Chinese clone board with official chip will work)
