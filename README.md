@@ -52,7 +52,8 @@ So my design was based on these unit, but now with more sensitive and fast (2Hz)
 
 ## About the name of this project
 
-I taught English as a part time job. 
+I taught English as a part time job. and one of my student loved a youtube channel called I Show Speed.
+And yeah.. This product pretty much literally shows a speed. That's it. 
 
 ## YOU MAY REQUIRE 
 - MAX7219 8-Digit 7 Segment Display Unit (Everyone can afford it, go search aliexpress if you want)
