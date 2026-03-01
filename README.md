@@ -1,6 +1,21 @@
 
 # 'I Show Speed' Portable Car Speedometer with Super High Sensitivity. 
 
+## 'I show Speed' 차량 대시보드용 속도 게이지: 한국어 설명
+
+이 레포지토리는 회로도와 펌웨어, 케이스 STL 파일을 포함하고 있습니다. 
+
+00년대 초반, GPS 네비게이션 제품이 비쌌던 그 시절 잠깐이나마 시장에 풀려 영광을 누릴 뻔 했던 GPS 안전운전 보조장치를 재해석한 차량용 속도계 프로젝트입니다.
+
+- 방위, 거리, 고도, 경사도, 속도 지원
+- 제로백 측정 기능 지원
+- U-Blox 포맷 호환
+- 단일 버튼 인터페이스
+- GMT / 비프음 볼륨 / 화면 밝기 조절 설정 기능 내장
+- 일출 일몰 계산하여 자동 밝기 적용하는 알고리즘 내장
+- 플래시 메모리에 설정 값 저장
+- 하드웨어 테스트 모드 
+
 ## Introduction
 
 THIS REPOSITORY CONTAINS A COMPLETE BLUEPRINT AND FIRMWARE OF DIY CAR SPEEDO GAUGE AKA "I SHOW SPEED". 
@@ -35,6 +50,9 @@ People can install those small units on their dashboard and those device helped 
 
 So my design was based on these unit, but now with more sensitive and fast (2Hz) GPS, 8 digit display and extended features.
 
+## About the name of this project
+
+I taught English as a part time job. 
 
 ## YOU MAY REQUIRE 
 - MAX7219 8-Digit 7 Segment Display Unit (Everyone can afford it, go search aliexpress if you want)
@@ -61,3 +79,10 @@ FEATURES:
 
 Build and Enjoy! 
 Bored? Add features. Fix bugs. FIne tune everything. 
+
+
+## Cortex-M4, Isn't it overkill??
+
+100% Agreed. STM32F4 is like a supercar for microproceor. Its like a Porsche when most commercially available cheapo 8-bit MCUs are a shitbox. 
+BOM is a real issue when its in production, but since its a personal DIY project that people can download and make themselves, I valued more for ease of programming than an extreme cost cutting.
+
