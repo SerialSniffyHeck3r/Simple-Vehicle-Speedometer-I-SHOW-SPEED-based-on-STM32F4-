@@ -1,6 +1,8 @@
 
 # 'I Show Speed' Portable Car Speedometer with Super High Sensitivity. 
 
+![UI Animation](images/gifgif.gif)
+
 ## 'I show Speed' 차량 대시보드용 속도 게이지: 한국어 설명
 
 이 레포지토리는 회로도와 펌웨어, 케이스 STL 파일을 포함하고 있습니다. 
