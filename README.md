@@ -12,6 +12,7 @@
 - 방위, 거리, 고도, 경사도, 속도 지원
 - 제로백 측정 기능 지원
 - U-Blox 포맷 호환
+- 속도 초과 시 경고 기능
 - 단일 버튼 인터페이스
 - GMT / 비프음 볼륨 / 화면 밝기 조절 설정 기능 내장
 - 일출 일몰 계산하여 자동 밝기 적용하는 알고리즘 내장
@@ -22,10 +23,7 @@
 
 THIS REPOSITORY CONTAINS A COMPLETE BLUEPRINT AND FIRMWARE OF DIY CAR SPEEDO GAUGE AKA "I SHOW SPEED". 
 
-You see, local rental company is trying to permaban me from using car sharing service only because I love to speed, which is something that I will never give a middle finger.
-Cars these days has decent performance, they easily hit 150kph with ease. and they claim that exceeding 150kph is a violation of their terms of service. 
-
-So yeah.. I needed some device that I can easily carry, install, remove on a rental vehicle, and helps me avoid speeding. 
+So yeah.. I needed some device that I can easily carry, install, remove on a vehicle, and helps me avoid speeding. 
 My initial thought was to make a device that warns speeding whenever I floor and sending her, with my leftover parts from one of my big main project.
 However, the part that I use is clearly an overkill for this purpose. 
 I mean, U-Blox M8 Series chip and STM32F4 for simple speed warning digital karen doesn't make any sense haha.
