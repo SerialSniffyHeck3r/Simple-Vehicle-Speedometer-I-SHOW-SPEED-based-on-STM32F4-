@@ -31,7 +31,7 @@ So, small companies back then brought a simple idea. Most people use their GPS N
 Then, Why don't we make a product that does not have an expensive processor and display, and just warns speed camera and show only necessary infos?
 
 Those units have 8-bit MCU with SirfStar GPS chip. Most of them equipped with 4 digit segment display and very simple voice alert system, and was affordable.
-People can install those small units on their dashboard and those device helped them to drive safe... and of course avoiding speed tickets, of course by driving carefully especially in front of speed cameras.
+People can install those small units on their dashboard and those device helped them to drive safe... and of course avoiding speed tickets, well... by driving carefully especially in front of speed cameras.
 
 So my design was based on this unit, but now with more sensitive and fast (2Hz) GPS, 8 digit display and extended features.
 
