@@ -1,7 +1,7 @@
 
 # 'I Show Speed' Portable Car Speedometer with Super High Sensitivity. 
 
-![Video](images/gifgit.gif)
+![Video](Images/gifgit.gif)
 
 ## 'I show Speed' 차량 대시보드용 속도 게이지: 한국어 설명
 
